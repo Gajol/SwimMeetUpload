@@ -6,7 +6,7 @@ set :application, "www.nielsenfamily.ca"
 
 #dreamhost does not give sudo access - https://github.com/capistrano/capistrano/wiki/2.x-From-The-Beginning
 set :user, 'dounie1'   # since userid is different than home pc "hence the "DOUG" warhning"
-set :use_sudo, 'false'
+set :use_sudo, false
 
 # version control config
 set :scm_username, 'Gajol'
