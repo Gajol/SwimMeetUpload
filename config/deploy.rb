@@ -6,7 +6,8 @@ set :application, "www.nielsenfamily.ca"
 
 # version control config
 set :scm_username, 'Gajol'
-set :scm_password, 'pinball2day'set :repository,  "git@github.com:Gajol/SwimMeetUpload.git"
+set :scm_password, 'pinball2day'
+set :repository,  "git@github.com:Gajol/SwimMeetUpload.git"
 set :scm, 'git'  # syntax from http://help.github.com/deploy-with-capistrano/
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
