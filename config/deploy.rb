@@ -15,7 +15,8 @@ set :scm, 'git'  # syntax from http://help.github.com/deploy-with-capistrano/
 # roles - https://github.com/capistrano/capistrano/wiki/Roles
 role :web, 'www.nielsenfamily.ca'                          # Your HTTP server, Apache/etc
 role :app, 'www.nielsenfamily.ca'                          # This may be the same as your `Web` server
-role :db,  'mysql.nielsenfamily.ca', :primary => true 		# This is where Rails migrations will run
+# role :db,  'mysql.nielsenfamily.ca', :primary => true 		# This is where Rails migrations will run
+role :db,  'www.nielsenfamily.ca', :primary => true 		# This is where Rails migrations will run
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
