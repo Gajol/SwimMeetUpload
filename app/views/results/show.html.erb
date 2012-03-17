@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Filename:</b>
+  <%= @result.filename %>
+</p>
+
+<p>
+  <b>Content type:</b>
+  <%= @result.content_type %>
+</p>
+
+<p>
+  <b>Data:</b>
+  <%= @result.data %>
+</p>
+
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>
