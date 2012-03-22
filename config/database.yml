@@ -19,11 +19,16 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
-  database: upload_production
-  username: swimottawa
-  password: swim2day
-  host: mysql.nielsenfamily.ca
-  port: 3306
+  adapter: sqlite3
+  database: db/swimmeet.sqlite3
   pool: 5
   timeout: 5000
+
+  # adapter: mysql
+  # database: upload_production
+  # username: swimottawa
+  # password: swim2day
+  # host: mysql.nielsenfamily.ca
+  # port: 3306
+  # pool: 5
+  # timeout: 5000
